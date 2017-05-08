@@ -1,0 +1,22 @@
+{
+  "name": "align-imports",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Fake align imports so that your code doesn't change, but your display of them does.",
+  "keywords": [],
+  "repository": "https://github.com/atom/align-imports",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "eslintConfig": {
+    "extends": "adorable",
+    "globals": {
+      "atom": true
+    }
+  },
+  "devDependencies": {
+    "eslint-config-adorable": "0.0.6"
+  }
+}
