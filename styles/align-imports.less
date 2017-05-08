@@ -4,16 +4,6 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.align-imports {
-}
-
-.import-line--spacer(@index: 1) when (@index =< @columns) {
-  .import-line--spacer(@index + 1);
-  .import-line--spacer-@{index} {
-    margin-left: @characterWidth * @index;
-  }
-}
-
 .import-line--from-spacer {
   color: @syntax-invisible-character-color;
 }
