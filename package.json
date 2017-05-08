@@ -1,7 +1,7 @@
 {
   "name": "align-imports",
   "main": "./lib/main",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Fake align imports so that your code doesn't change, but your display of them does.",
   "keywords": [],
   "repository": "https://github.com/itsthatguy/align-imports",
